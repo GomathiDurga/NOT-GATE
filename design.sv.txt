@@ -1,0 +1,7 @@
+//Design code for NOT gate
+module not_gate (
+  input logic a,
+  output logic y
+);
+  assign y = ~a;
+endmodule
